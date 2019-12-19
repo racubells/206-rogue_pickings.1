@@ -1,0 +1,178 @@
+@font-face{
+	font-family: 'Wisdom Script';
+	src: url('../fonts/wisdom-script.otf') format('opentype');
+}
+
+html {
+	font-size: 16px;
+}
+
+body {
+	font-family: 'Montserrat', Helvetica, Arial, sans-serif;
+	font-size: 1em;
+}
+
+.container{
+	max-width: 90%;
+	margin: 0 auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-flow: column nowrap;
+}
+
+h1,
+h2,
+h3,
+h4 {
+	color: black;
+	text-transform: uppercase;
+	font-weight: 700;
+}
+h1 {
+	font-size: 1.875em;
+}
+h2 {
+    font-size: 1.5em;
+}
+h3 {
+	font-size: 1.125em;
+}
+h4 {
+	font-size: .75em;
+}
+
+p {
+	font-size: .875em;
+	line-height: 21px;
+    padding: 0 0px;
+}
+
+/*The widths are in a percentage!*/
+header {
+	margin: 0 auto;
+	display: flex;
+	flex-flow: column nowrap;
+	width: 100%
+}
+
+header h1 {
+	margin: 0;
+	padding: 38px 0;
+	width: 100%;
+	border-bottom: 3px solid #77a466;
+	text-align: center;
+}
+header h1 span {
+	color: #77a466;
+}
+
+header nav {
+	padding: 46px 0;
+	text-align: center;
+}
+header nav ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+header nav ul li {
+	text-transform: uppercase;
+	font-weight: 700;
+	font-size: .875em;
+	padding: 10px 10px;
+}
+header nav ul li a{
+	text-decoration: none;
+	color:#77a466;
+}
+
+/*The widths are in a percentage!*/
+.top-section,
+.bottom-section {
+	width: 100%;
+	margin: 0 auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-flow: row wrap;
+}
+
+.main-image {
+	height: auto;
+	width: 100%;
+}
+.main-image img {
+	width: 100%;
+	border-bottom: 3px solid #77a466;
+	border-top: 3px solid #77a466;
+}
+
+.main-title {
+	height: auto;
+}
+.main-title h3 {
+	text-align: left;
+	padding: 5px 0;
+	color: #77a466;
+}
+.main-title p {
+	padding: 0;
+	font-size: 1em;
+	line-height: 25px;
+}
+
+.section-one,
+.section-two,
+.section-three {
+	width: 100%;
+	height: auto;
+	border-top: 1px solid #eee;
+}
+
+.section-one h4 {
+	padding: 10px 0;
+}
+
+.section-two h4,
+.section-three h4 {
+	padding: 10px 0px;
+}
+
+.menu {
+	list-style: none;
+	padding: 0;
+}
+.menu li {
+	padding: 10px 0;
+	color:#77a466;
+}
+
+.reviews {
+	color: #333;
+	font-size: 1em;
+	line-height: 21px;
+}
+
+.address {
+	font-size: 1em;
+	line-height: 24px;
+}
+
+/*The widths are in a percentage!*/
+footer {
+	height: 50px;
+	border-top: 3px solid #eee;
+	margin: 0 auto;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+}
+footer span {
+	font-family: 'Wisdom Script', cursive;
+	text-transform: lowercase;
+	color: #77a466;
+	font-size: .875em;
+}
