@@ -176,3 +176,51 @@ footer span {
 	color: #77a466;
 	font-size: .875em;
 }
+
+@media (min-width: 768px) {
+	.bottom-section {
+		display: flex;
+		flex-flow: row nowrap;
+	}
+
+	.section-one,
+	.section-two,
+	.section-three {
+	width: 33%;
+	height: 250px;
+	border-top: 1px solid #eee;
+	float: left;
+	padding: 0 30px;
+	}
+
+	.section-one h4 {
+		padding: 10px 0;
+	}
+
+	.section-two {
+		border-left: 1px solid #eee;
+		border-right: 1px solid #eee;
+	}
+}
+
+@media (min-width: 1200px) {
+	header {
+		display: flex;
+		justify-content: space-between;
+		flex-flow: row nowrap;
+		align-items: center;
+	}
+	header nav {
+		width: 50%;
+	}
+
+	header h1 {
+		width: 50%;
+		text-align: left;
+		border: none;
+	}
+	header nav ul {
+		display: flex;
+		justify-content: space-between;
+	}
+}
